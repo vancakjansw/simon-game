@@ -1,5 +1,5 @@
 {
-  "name": "simonGame",
+  "name": "Simon's Game",
   "Author": "Jan Vancak <vancak.jan@gmail.com>",
   "private": true,
   "scripts": {
@@ -14,7 +14,6 @@
     "redux": "^3.6.0",
     "redux-logger": "^2.7.4",
     "redux-thunk": "^2.1.0",
-    "whatwg-fetch": "^2.0.1"
   },
   "jest": {
     "preset": "jest-react-native"
