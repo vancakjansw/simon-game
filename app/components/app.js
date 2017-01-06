@@ -20,10 +20,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Scene key="root" hideNavBar={true} initial={true}>
-          <Scene key="HomeView" component={HomeViewConnected}  />
-          <Scene key="GameView" component={GameViewConnected}  />
-          <Scene key="CredentialsView" component={CredentialsViewConnected} hideNavBar={false} />
+        <Scene key="root" hideNavBar={true}>
+          <Scene key="HomeView" component={HomeViewConnected} />
+          <Scene key="GameView" component={GameViewConnected} initial={true} />
+          <Scene key="CredentialsView" component={CredentialsViewConnected} />
           <Scene key="ScoreboardViewConnected" component={ScoreboardViewConnected} hideNavBar={false} />
         </Scene>
       </Router>

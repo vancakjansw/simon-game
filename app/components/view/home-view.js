@@ -22,7 +22,7 @@ class HomeView extends Component {
         </Text>
         <Button
           onPress={Actions.GameView}
-          title="Play Game"
+          title="Back to Game"
           color={GLOBALS.commonColors.menuTitle}
         />
         <Button

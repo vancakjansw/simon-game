@@ -219,8 +219,8 @@ class Cubes extends Component {
               Simon`'`s game
             </Text>
           </View>
-          <TouchableOpacity style={styles.controlContainerInnerRight} onPress={Actions.pop}>
-            <Text style={styles.controlContainerScoreButton}>Exit</Text>
+          <TouchableOpacity style={styles.controlContainerInnerRight} onPress={Actions.HomeView}>
+            <Text style={styles.controlContainerScoreButton}>Menu</Text>
           </TouchableOpacity>
         </View>
       </View>
