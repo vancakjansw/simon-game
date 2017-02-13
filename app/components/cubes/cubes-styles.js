@@ -1,17 +1,19 @@
 import {
   StyleSheet,
+  Dimensions,
 } from 'react-native'
 import GLOBALS from './../../globals'
 
+const controlContainerHeight = 30;
+
 export const styles = StyleSheet.create({
   infoCircleContainer: {
-    alignSelf: 'stretch',
     alignItems: 'center',
     justifyContent: 'center',
     zIndex: 2,
     position: 'absolute',
-    top: 235,
-    left: 105,
+    left: (Dimensions.get('window').width / 2) - 75,
+    top: ((Dimensions.get('window').height - controlContainerHeight) / 2) - 75,
   },
   infoCircle: {
     width: 150,
@@ -30,7 +32,7 @@ export const styles = StyleSheet.create({
   controlContainer: {
     justifyContent: 'space-between',
     alignSelf: 'stretch',
-    height: 30,
+    height: controlContainerHeight,
     flexDirection: 'row',
     padding: 10,
     alignItems: 'center',
